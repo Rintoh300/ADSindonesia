@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>PT ADS</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Favicon -->
+    <link href="img/logo2.png" rel="icon">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/slick/slick.css" rel="stylesheet">
+    <link href="libs/slick/slick-theme.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/nivo-slider/css/nivo-slider.css" rel="stylesheet">
+    <link href="lib/owlcarousel/owl.carousel.css" rel="stylesheet">
+    <link href="lib/owlcarousel/owl.transitions.css" rel="stylesheet">
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/venobox/venobox.css" rel="stylesheet">
+
+    <!-- Nivo Slider Theme -->
+    <link href="css1/nivo-slider-theme.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="css1/style.css" rel="stylesheet">
+
+    <!-- Responsive Stylesheet File -->
+    <link href="css1/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Header Start -->
+        <div class="header">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-2">
+                        <div class="brand">
+                            <a href="index.html">
+                                <img src="img/logo1.jpg" alt="Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="topbar">
+                            <div class="topbar-col">
+                                <a href="tel:+012 345 67890"><i class="fa fa-phone-alt"></i>+62 85216987265</a>
+                            </div>
+                            <div class="topbar-col">
+                                <a href="mailto:info@example.com"><i class="fa fa-envelope"></i>PT.ADS@gmail.com</a>
+                            </div>
+                            <div class="topbar-col">
+                                <div class="topbar-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-youtube"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="navbar navbar-expand-lg bg-light navbar-light">
+                            <a href="#" class="navbar-brand">MENU</a>
+                            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                                <div class="navbar-nav ml-auto">
+                                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                                    <a href="about.html1" class="nav-item nav-link">About Us</a>
+                                    <a href="services.html1" class="nav-item nav-link">Services</a>
+                                    <a href="portfolio.html1" class="nav-item nav-link">Portfolio</a>
+                                    <a href="single.htm1l" class="nav-item nav-link">Train</a>
+                                    <a href="contact.html1" class="nav-item nav-link">Contact Us</a>
+                                    <a href="" class="btn"><i class="fa fa-download"></i>About Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+        <!-- Hero Start -->
+        <div class="hero">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h2>Siap Menjawab</h2>
+                        <h2><span>Tantangan</span> Zaman</h2>
+                        <p>Trainig, Sertifikasi, Pengembangan Software siap membantu perusahaan anda</p>
+                        <a class="btn" href="Dokumen">About Us</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="gambar" src="img/bann.png" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+
+        <!-- About Start -->
+        <div class="about">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div id="video-section">
+                            <div class="youtube-player" data-id="jssO8-5qmag"></div>
+
+                            <script>
+                                document.addEventListener("DOMContentLoaded",
+                                    function() {
+                                        var div, n,
+                                            v = document.getElementsByClassName("youtube-player");
+                                        for (n = 0; n < v.length; n++) {
+                                            div = document.createElement("div");
+                                            div.setAttribute("data-id", v[n].dataset.id);
+                                            div.innerHTML = labnolThumb(v[n].dataset.id);
+                                            div.onclick = labnolIframe;
+                                            v[n].appendChild(div);
+                                        }
+                                    });
+
+                                function labnolThumb(id) {
+                                    var thumb = '<img src="img/PHPL-13.jpg">',
+                                        play = '<div class="play"></div>';
+                                    return thumb.replace("ID", id) + play;
+                                }
+
+                                function labnolIframe() {
+                                    var iframe = document.createElement("iframe");
+                                    var embed = "https://www.youtube.com/embed/ID?autoplay=1";
+                                    iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+                                    iframe.setAttribute("frameborder", "0");
+                                    iframe.setAttribute("allowfullscreen", "1");
+                                    this.parentNode.replaceChild(iframe, this);
+                                }
+                            </script>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="section-title">Tentang Kami</h2>
+                        <p>
+
+                            Pendiri Perusahaan merupakan profesional konsultan di bidang kehutanan dan Kebun selama 12 tahun. Pengurus Perusahaan Memiliki Jenjang pendidikan dari strata 1, 2 dan 3 dari perguruan terkemuka di Indonesia. Pengurus Perusahaan telah memiliki sertifikasi
+                            pelatihan dan kompetensi dari lembaga negara dan instansi terakreditasi nasional
+
+                        </p>
+                        <p>
+                            Berfokus pada memandu dan membantu perusahaan dalam pengelolaan hutan lestari, kebun lestari, pengelolaan lingkungan, dan memenuhi standar keberlanjutan (sustainability). <br>
+                            <strong>
+                                Layanan utama: </strong>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-trophy text-warning"></i> Perencanaan Hutan dan Kebun
+                                </li>
+                                <li>
+                                    <i class="fas fa-trophy text-warning"></i> Mapping dan GIS
+                                </li>
+                                <li>
+                                    <i class="fas fa-trophy text-warning"></i> Pendampingan Sertifikasi
+                                </li>
+                                <li>
+                                    <i class="fas fa-trophy text-warning"></i> AMDAL dan Survey Tata Batas Areal
+                                </li>
+                            </ul>
+                        </p>
+                        <a class="btn" href="">Sertifikasi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Service Start -->
+        <div class="service">
+            <div class="container-fluid">
+                <div class="section-header">
+                    <h2>Pelayanan Kami</h2>
+                    <p>Dengan Tenaga Ahli Telah Tersertifikasi Kami Siap Membantu Anda
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-item">
+                            <h3>Web Design</h3>
+                            <img src="img/icon-service-1.png" alt="Service">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-item">
+                            <h3>IT Infrastruktur</h3>
+                            <img src="img/icon-service-2.png" alt="Service">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-item">
+                            <h3>UI/UX Design</h3>
+                            <img src="img/icon-service-3.png" alt="Service">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-item">
+                            <h3>Fixing bugs</h3>
+                            <img src="img/icon-service-4.png" alt="Service">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-item">
+                            <h3>Penafsiran Citra Satelit QUICKBIRD</h3>
+                            <img src="img/icon-service-5.png" alt="Service">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-item">
+                            <h3>SOP Berbasis ISO 9000-2001</h3>
+                            <img src="img/icon-service-6.png" alt="Service">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-item">
+                            <h3>Sertifikat ISPO / RSPO </h3>
+                            <img src="img/icon-service-7.png" alt="Service">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-item">
+                            <h3>Penafsiran Citra Satelit LANDSAT</h3>
+                            <img src="img/icon-service-8.png" alt="Service">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+
+        <!-- FAQs Start -->
+        <div class="faqs">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h2 class="section-title">Pertanyaan Kepada Kami</h2>
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="true">
+                                        Bagaimana menggunakan jasa kami?
+                                    </a>
+                                </div>
+                                <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                    <div class="card-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link" data-toggle="collapse" href="#collapseTwo">
+                                        Apakah tenaga ahli sudah tersertifikasi?
+                                    </a>
+                                </div>
+                                <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link" data-toggle="collapse" href="#collapseThree">
+                                        Mampukah mengintegrasi sistem konvensional menjadi modern?
+                                    </a>
+                                </div>
+                                <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link" data-toggle="collapse" href="#collapseFour">
+                                        Apakah konsep yang diterapkan memiliki standar mutu sertifikasi?
+                                    </a>
+                                </div>
+                                <div id="collapseFour" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Hubungkan Ke Whatsap -->
+                        <a class="btn" href="">Tanya Kami</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="gambar" src="img/PHPL D2-5.jpg" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FAQs End -->
+
+        <!-- slider card -->
+        <div class="call-to-action">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-9">
+                        <h2>PT Alam Dinamika Sukses</h2>
+                        <p>
+                            Tingkatkan Qualitas Produk Dengan Improvement.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <a class="btn" href="#">Hubungi Kami</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Akhir slider card -->
+
+        <!-- Testimonial Start -->
+        <!-- <div class="testimonial">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Clients Reviewer</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium ornare velit non
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="testimonial-slider-nav">
+                            <div class="slider-nav"><img src="img/foto1.png" alt="Testimonial"></div>
+                            <div class="slider-nav"><img src="img/1.jpeg" alt="Testimonial"></div>
+                            <div class="slider-nav"><img src="img/testimonial-3.jpg" alt="Testimonial"></div>
+                            <div class="slider-nav"><img src="img/testimonial-4.jpg" alt="Testimonial"></div>
+                            <div class="slider-nav"><img src="img/testimonial-1.jpg" alt="Testimonial"></div>
+                            <div class="slider-nav"><img src="img/testimonial-2.jpg" alt="Testimonial"></div>
+                            <div class="slider-nav"><img src="img/testimonial-3.jpg" alt="Testimonial"></div>
+                            <div class="slider-nav"><img src="img/testimonial-4.jpg" alt="Testimonial"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="testimonial-slider">
+                            <div class="slider-item">
+                                <h3>Rinto Hidayat</h3>
+                                <h4>Web Develope</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl
+                                    nec nisi scelerisque maximus.
+                                </p>
+                            </div>
+                            <div class="slider-item">
+                                <h3>Carolina</h3>
+                                <h4>Analis</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl
+                                    nec nisi scelerisque maximus.
+                                </p>
+                            </div>
+                            <div class="slider-item">
+                                <h3>Customer Name</h3>
+                                <h4>profession</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl
+                                    nec nisi scelerisque maximus.
+                                </p>
+                            </div>
+                            <div class="slider-item">
+                                <h3>Customer Name</h3>
+                                <h4>profession</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl
+                                    nec nisi scelerisque maximus.
+                                </p>
+                            </div>
+                            <div class="slider-item">
+                                <h3>Customer Name</h3>
+                                <h4>profession</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl
+                                    nec nisi scelerisque maximus.
+                                </p>
+                            </div>
+                            <div class="slider-item">
+                                <h3>Customer Name</h3>
+                                <h4>profession</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl
+                                    nec nisi scelerisque maximus.
+                                </p>
+                            </div>
+                            <div class="slider-item">
+                                <h3>Customer Name</h3>
+                                <h4>profession</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl
+                                    nec nisi scelerisque maximus.
+                                </p>
+                            </div>
+                            <div class="slider-item">
+                                <h3>Customer Name</h3>
+                                <h4>profession</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl
+                                    nec nisi scelerisque maximus.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Testimonial End -->
+
+
+        <!-- News Start -->
+        <div class="news">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <img class="gambar" src="img/R.jpg" alt="Image">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="section-title">IT Development</h2>
+                        <p>
+                            3+ years experiences in managing customers and projects in cross-functional teams and bringing effective change. Able in applying IT to improve employee’s performance and administration progress. Proficient in Programming Language, Microsoft Office and
+                            Adobe products. Dependable, skilled, analytical thinking, and creative problem solving.
+                        </p>
+                        <p>
+                            I am currently enrolled in Tanri Abeng University and Major School of Engineering and Technology persuing an bachelor degree with majoring in Information Technolgy. I also have experiences of personal and official projects for creating websites and applications..
+                            So far I have Javascript, CSS, HTML, Python, Bootstrap, Mateliaze, CMS Worldpres, MVC, and github under my belt. Moreover, I'm active in participating in certification bodies and program discussion forums to strengthen my field
+                            and deepen my knowledges of development of programming languages.
+                        </p>
+                        <a class="btn" href="#">Sertifikasi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- News End -->
+
+
+        <!-- Call to Action Start -->
+        <!-- <div class="call-to-action">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-9">
+                        <h2>Get A Free HTML Template</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet metus sit amet
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <a class="btn" href="https://htmlcodex.com/contact">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Call to Action End -->
+        <!-- Sertifikasi Training -->
+        <div id="pricing" class="pricing-area area-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="section-headline text-center">
+                            <h2>Sertifikasi Training</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="pri_table_list active">
+                            <span class="saleon">top Train</span>
+                            <h3>Consulting<br /> <span>Training</span></h3>
+                            <ol>
+                                <li>Penyusunan SOP Berbasis ISO 9000-2001</li>
+                                <li>Pendampingan sertifikat ISPO / RSPO </li>
+                                <li>Penyusunan laporan RKL-RPL atau UPL-UKL</li>
+                                <li>Indentifikasi areal Nilai Konservasi Tinggi (HCV)</li>
+                                <li>Land Use Change/trajectory dua (2) seris</li>
+                                <li>Survey dan Analysis Karbon Stok</li>
+                                <li>Pembuatan dan Rekonstruksi Tata Batas </li>
+                            </ol>
+                            <button>Tanyakan</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="pri_table_list active">
+                            <span class="saleon">top Train</span>
+                            <h3>Remote Sengsing <br /> <span>Training</span></h3>
+                            <ol>
+                                <li>Pengadaan dan Penafsiran Citra Satelit LANDSAT</li>
+                                <li> Pengadaan dan Penafsiran Citra Satelit SPOT
+                                </li>
+                                <li>Pengadaan dan Penafsiran Citra Satelit QUICKBIRD</li>
+                                <li>Pengadaan dan Penafsiran Citra Satelit ASTER</li>
+                            </ol>
+                            <button>Tanyakan</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="pri_table_list active">
+                            <span class="saleon">top Train</span>
+                            <h3>IT<br /> <span>Development</span></h3>
+                            <ol>
+                                <li>Develop WEBSITE LMS</li>
+                                <li>Develop WEBSITE DBMS</li>
+                                <li>Modified existing software</li>
+                                <li>front-end web based on the UI/UX design.</li>
+                                <li>correct errors and optimize efficiencys</li>
+                                <li>Modified code to fix errors</li>
+                                <li>Modified existing software to correct errors and optimize efficiency.</li>
+                            </ol>
+                            <button>Tanyakan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Akhir Sertifikasi Training -->
+        <!-- Tes footer -->
+        <div id="contact" class="contact-area">
+            <div class="contact-inner area-padding">
+                <div class="contact-overly"></div>
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="section-headline text-center">
+                                <h2>Hubungi Kami </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Start contact icon column -->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="contact-icon text-center">
+                            <div class="single-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                                <p>
+                                    Call: 085216987265<br>
+                                    <span>Monday-Friday (9am-5pm)</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Start contact icon column -->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="contact-icon text-center">
+                            <div class="single-icon">
+                                <i class="far fa-envelope"></i>
+                                <p>
+                                    Email: PT.ADS@gmail.com<br>
+                                    <span>www.PT AlamDinamikaSukses.com</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Start contact icon column -->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="contact-icon text-center">
+                            <div class="single-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>
+                                    Laladon Indah Jl.Gajah Mungkur No 7<br>
+                                    <span>Bogor, Jawa Barat</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <!-- Start Google Map -->
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <!-- Start Map -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.71696832432875!2d106.75883923888055!3d-6.588165650092343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcdb83bda47d2cde4!2sKomplek%20Laladon%20Indah!5e0!3m2!1sen!2sid!4v1609924998734!5m2!1sen!2sid"
+                            width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <!-- End Map -->
+                    </div>
+                    <!-- End Google Map -->
+
+                    <!-- Start  contact -->
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="form contact-form">
+                            <div id="sendmessage">Your message has been sent. Thank you!</div>
+                            <div id="errormessage"></div>
+                            <form action="" method="post" role="form" class="contactForm">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="text-center"><button type="submit">Send Message</button></div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- End Left contact -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Area -->
+
+    <!-- Start Footer bottom Area -->
+    <footer>
+        <div class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="footer-content">
+                            <div class="footer-head">
+                                <div class="footer-logo">
+                                    <h2>PT.Alam Dinamika Sukses</h2>
+                                </div>
+
+                                <p><strong>Enviro management consulting and Mapping</strong> <br> Didirikan di Bogor pada tahun 2013 oleh orang (founders) yang memiliki pengalaman bekerja dan beraktualisasi di bidang remot sengsing, biodiversity conservation,
+                                    AMDAL, dan sustainability (sertifikasi ) sejak tahun 2003-an.</p>
+                                <div class="footer-icons">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-youtube"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end single footer -->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="footer-content">
+                            <div class="footer-head">
+                                <h4>information</h4>
+                                <p>
+                                    Informasi masih lebih lanjut dapat menghubungi kami segera
+                                </p>
+                                <div class="footer-contacts">
+                                    <p><span>Tel:</span> 085216987265</p>
+                                    <p><span>Email:</span> PT.ADS@gmail.com</p>
+                                    <p><span>Working Hours:</span> 9am-5pm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end single footer -->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="footer-content">
+                            <div class="footer-head">
+                                <h4>Portfolio</h4>
+                                <div class="flicker-img">
+                                    <a href="#"><img src="img/PHP1.jpg" alt=""></a>
+                                    <a href="#"><img src="img/PHP2.jpg" alt=""></a>
+                                    <a href="#"><img src="img/RI.jpg" alt=""></a>
+                                    <a href="#"><img src="img/KE.jpg" alt=""></a>
+                                    <a href="#"><img src="img/KO.jpg" alt=""></a>
+                                    <a href="#"><img src="img/Sa.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-area-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="copyright text-center">
+                            <p>
+                                &copy; Copyright <strong>PT</strong>. Alam Dinamika Sukses
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Akhir Tes footer -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/slick/slick.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
